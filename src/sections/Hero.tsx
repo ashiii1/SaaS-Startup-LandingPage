@@ -131,7 +131,7 @@ export const Hero = () => {
         </div>
         <div className="flex justify-center mt-8">
           <div className="relative inline-flex">
-            <h1 className="text-3xl pr-72 pl-96 pt-12 sm:text-7xl font-bold  text-center ">
+            <h1 className="text-3xl pr-16  pt-12 sm:text-7xl font-bold  text-center ">
               Landing Page for
               Startup/SaaS
             </h1>
@@ -151,7 +151,7 @@ export const Hero = () => {
               /> */}
             </motion.div>
 
-            <div className="pl-28">
+            <div className="pl-40 pr-1">
             <motion.div
               className="absolute right-0 top-1/2 transform -translate-y-1/2 hidden sm:inline cursor-grabbing"
               drag

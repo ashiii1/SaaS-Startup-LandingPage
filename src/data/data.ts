@@ -46,18 +46,19 @@ export const FAQItems = [
 
 export const featureItems = [
   {
-    title: "Integration Ecosystem",
+    title: "Landing Page",
     description:
-      "Enhance your productivity by connecting with your tools, keeping your essentials in one place.",
+      "Create an impactful first impression with a modern, conversion-focused landing page tailored for your SaaS startup.",
   },
   {
-    title: "Goal Setting and Tracking",
+    title: "Documentation",
     description:
-      "Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight.",
+      "Provide clear and structured documentation, making it easy for users to understand and adopt your SaaS platform.",
   },
   {
-    title: "Secure Data Encryption",
+    title: "Blog",
     description:
-      "With end-to-end encryption, your data is securely stored and protected from unauthorized access.",
+      "Share insights, updates, and industry knowledge through a content-rich blog designed to engage and inform your audience.",
   },
+  
 ];

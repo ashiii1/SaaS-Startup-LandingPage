@@ -7,6 +7,7 @@ import { Hero } from "@/sections/Hero";
 import { LogoTicker } from "@/sections/LogoTicker";
 import { ProductShowcase } from "@/sections/ProductShowcase";
 import ScrollToTop from "@/components/ScrollToTop";
+import { Pricing } from "@/sections/Pricing";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <LogoTicker />
       <Features />
       <ProductShowcase />
+      <Pricing/>
       <FAQs />
       <CallToAction />
       <Footer />

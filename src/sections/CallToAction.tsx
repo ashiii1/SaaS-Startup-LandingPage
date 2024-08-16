@@ -2,8 +2,8 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import EmojiStarImage from "@/assets/images/emojistar.png";
-import HelicImage from "@/assets/images/helix2.png";
+import EmojiStarImage from "@/assets/images/w1-removebg-preview.png";
+import HelicImage from "@/assets/images/last-removebg-preview.png";
 
 export const CallToAction = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -29,11 +29,11 @@ export const CallToAction = () => {
             translateY,
           }}
         >
-          <Image
+          {/* <Image
             src={HelicImage}
             alt="vector 1"
             className="absolute top-6 left-[calc(100%+36px)]"
-          />
+          /> */}
         </motion.div>
         <motion.div
           style={{
