@@ -21,8 +21,8 @@ export const LogoTicker = () => {
   return (
     <section className="bg-[linear-gradient(to_bottom,#200D42_34%,#4F21A1_65%,#4F21A1_82%)] text-white py-[72px] sm:py-24">
       <div className="container">
-        <h2 className="text-xl text-center text-white">
-          Trusted by the world&apos;s most innovative teams
+        <h2 className="text-3xl pt-5 pb-5 text-center text-white">
+          Collaborators
         </h2>
         <div className="flex overflow-hidden mt-9 before:z-10 before:content-[''] after:content-[''] before:absolute after:absolute before:h-full after:h-full before:w-5 after:w-5 relative before:left-0 after:right-0 before:top-0 after:top-0 before:bg-[linear-gradient(to_right,#000,rgb(0,0,0,0))] after:bg-[linear-gradient(to_left,#000,rgb(0,0,0,0))]">
           <motion.div

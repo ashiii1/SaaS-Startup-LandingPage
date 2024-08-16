@@ -131,9 +131,9 @@ export const Hero = () => {
         </div>
         <div className="flex justify-center mt-8">
           <div className="relative inline-flex">
-            <h1 className="text-5xl pr-72 sm:text-9xl font-bold tracking-tighter text-center inline-flex">
+            <h1 className="text-3xl pr-72 pl-96 pt-12 sm:text-7xl font-bold  text-center ">
               Landing Page for
-              <br /> Startup/SaaS
+              Startup/SaaS
             </h1>
             <motion.div
               className="absolute left-0 bottom-0 hidden sm:inline cursor-grabbing"
@@ -171,17 +171,15 @@ export const Hero = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <p className="text-xl text-center mt-8 max-w-md">
-            Celebrate the joy of accomplishment with an app designed to track
-            your progress, motivate your efforts, and celebrate your successes.
-          </p>
+          <p className="text-xl text-center mt-8 pr-5 pt-12">
+          A flexible Next.js landing page template tailored for SaaS startups, <br/> designed for easy customization and quick deployment. <br/>Perfect for showcasing features, pricing, and testimonials with a modern, responsive design.</p>
         </div>
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center mt-8 pt-12">
           <button
             type="button"
-            className="bg-white text-black py-3 px-5 rounded-lg font-medium"
+            className="bg-white text-black py-3 px-5  rounded-lg font-medium"
           >
-            Get for free
+            Start Now
           </button>
         </div>
       </div>
